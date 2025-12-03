@@ -78,60 +78,7 @@ npm run build
 npm start
 ```
 
-## 🌐 Deployment
 
-### Vercel (Önerilen - Ücretsiz)
-
-1. GitHub'a push edin
-2. [Vercel](https://vercel.com) hesabınızla giriş yapın
-3. "New Project" → GitHub repository'nizi seçin
-4. Otomatik olarak Next.js algılanacak ve deploy edilecek
-
-Vercel Next.js için optimize edilmiştir ve SSG desteği mükemmeldir.
-
-### Netlify
-
-1. GitHub'a push edin
-2. [Netlify](https://www.netlify.com) hesabınızla giriş yapın
-3. "New site from Git" → GitHub repository'nizi seçin
-4. Build ayarları:
-   - **Build command:** `npm run build`
-   - **Publish directory:** `out`
-5. Deploy edin
-
-### GitHub Pages
-
-1. `next.config.js` dosyasında `basePath` ve `assetPrefix` ayarlayın (opsiyonel)
-2. Build edin: `npm run build`
-3. `out` klasörünü GitHub Pages'e deploy edin
-
-### Herhangi Bir Statik Hosting
-
-Build edilen `out` klasöründeki dosyaları herhangi bir statik hosting servisine yükleyebilirsiniz:
-- AWS S3 + CloudFront
-- Google Cloud Storage
-- Azure Static Web Apps
-- Cloudflare Pages
-- vb.
-
-## 📁 Proje Yapısı
-
-```
-brans-bazinda-okul-haritalandirma/
-├── app/                    # Next.js App Router
-│   ├── layout.tsx         # Root layout
-│   ├── page.tsx           # Ana sayfa
-│   └── globals.css        # Global stiller
-├── components/            # React bileşenleri
-│   ├── IlceSecici.tsx     # İlçe seçici ve filtreleme
-│   └── OkulHaritasi.tsx   # Harita bileşeni
-├── lib/                   # Utility fonksiyonları
-│   └── utils.ts           # Okul verilerini işleme
-├── okullar-gaziantep.json # Okul verileri (JSON)
-├── next.config.js         # Next.js yapılandırması
-├── package.json           # Bağımlılıklar
-└── tsconfig.json          # TypeScript yapılandırması
-```
 
 ## 🗺️ Kullanım
 
@@ -185,5 +132,6 @@ Okul verileri `okullar-gaziantep.json` dosyasında saklanmaktadır. Her okul şu
 Pull request'ler memnuniyetle karşılanır! Büyük değişiklikler için lütfen önce bir issue açarak neyi değiştirmek istediğinizi tartışalım.
 
 Bu proje, öğretmen adaylarının atama sürecinde okul seçimlerini kolaylaştırmak amacıyla geliştirilmiştir.
+
 
 
