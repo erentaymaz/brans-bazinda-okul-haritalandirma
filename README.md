@@ -2,7 +2,7 @@
 
 Bu proje, öğretmen adaylarının atama döneminde ihtiyaç duyduğu okul listelerini tek bir harita üzerinde interaktif şekilde görüntülemesini sağlayan bir uygulamadır. Millî Eğitim Bakanlığı tarafından paylaşılan branşa özel okul listeleri temel alınarak okulların konum bilgileri işlenir ve harita üzerinde görselleştirilir.
 
-okulharitalandirma.netlify.app
+[Projeye Erişim](https://okulharitalandirma.netlify.app)
 
 ## 🎯 Proje Hakkında
 
@@ -134,6 +134,7 @@ Okul verileri `okullar-gaziantep.json` dosyasında saklanmaktadır. Her okul şu
 Pull request'ler memnuniyetle karşılanır! Büyük değişiklikler için lütfen önce bir issue açarak neyi değiştirmek istediğinizi tartışalım.
 
 Bu proje, öğretmen adaylarının atama sürecinde okul seçimlerini kolaylaştırmak amacıyla geliştirilmiştir.
+
 
 
 
